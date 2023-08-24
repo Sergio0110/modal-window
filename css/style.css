@@ -26,4 +26,8 @@ h1 {
   width: 580px;
   height: 620px;
   color: #FFFFFF;
+  border-radius: 16px;
+}
+.cross {
+  
 }
