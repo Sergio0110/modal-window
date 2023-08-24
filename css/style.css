@@ -7,6 +7,8 @@
 
 body {
   background-color: #F2F0F9;
+  font-family: 'Inter';
+  text-transform: uppercase;
 }
 
 h1 {
@@ -17,8 +19,8 @@ h1 {
   letter-spacing: 2.4px;
   text-transform: uppercase;
   color: #6E6893;
-  text-align: center;
 }
+
 
 .card {
   background-image: url('../img/Rectangle\ 44.svg');
@@ -29,5 +31,14 @@ h1 {
   border-radius: 16px;
 }
 .cross {
-  
+  padding-left: 742px;
+}
+
+.name {
+  color: #6E6893;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.6px;
 }
