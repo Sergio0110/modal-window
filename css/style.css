@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Inter;
+  src: local('Inter'), url('../fonts/Inter-Regular.woff2') format("woff2"),
+      url('../fonts/Inter-Regular.woff') format('woff');
+      font-weight: 600;
+}
+
+body {
+  background-color: #5138ae;
+}
+
+h1 {
+  font-family: 'Inter';
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  color: #6E6893;
+  text-align: center;
+}
+
+.card {
+  background-image: url('../img/big-field.svg');
+  background-repeat: no-repeat;
+  width: 580px;
+  height: 620px;
+  color: #FFFFFF;
+}
