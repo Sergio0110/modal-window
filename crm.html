@@ -7,38 +7,36 @@
   <title>modal</title>
 </head>
 <body>
-  <div class="cross">
-    <img src="./img/cross.svg" alt="#">
-  </div>
-  <h1>Добавить ТОВАР</h1>
-  
-    <section class="card">
-      <div class="name">Наименование
-        <img src="./img/field.svg" alt="#">
-      </div>
-      <div class="name">Категория
-        <img src="./img/field.svg" alt="#">
-      </div>
-      <div class="name">Единицы измерения
-        <img src="./img/field.svg" alt="#">
-      </div>
-      <div class="name">Дисконт
-        <img src="./img/icon.svg" alt="#">
-        <img src="./img/gray-field.svg" alt="#">
-      </div>
-      <div class="name">Описание
-        <img src="./img/big-field.svg" alt="">
-      </div>
-      <div class="name">Количество
-        <img src="./img/field.svg" alt="">
-      </div>
-      <div class="name">Цена
-        <img src="./img/field.svg" alt="">
-      </div>
-    </section>
-
-    <div class="button">
-      <img src="./img/button.svg" alt="">
+<div class="border">
+  <img class="cross" src="./img/cross.svg" alt="">
+    <h1 class="border__title">Добавить ТОВАР</h1>
+    <div class="border__card">
+      <h2 class="field-names">Наименование</h2>
+      <img src="./img/field.svg" alt="поле ввода">
+      <h2 class="field-names">Категория</h2>
+      <img src="./img/field.svg" alt="поле ввода">
+      <h2 class="field-names">Единицы измерения</h2>
+      <img src="./img/field.svg" alt="поле ввода">
+      <h2 class="field-names">дисконт</h2>
+      <form action="#">
+          <label>
+            <input type="checkbox" class="checkbox__input">
+          </label>
+      </form>
+      <img class="gray" src="./img/gray-field.svg" alt="поле ввода">
+      <h2 class="field-names">Описание</h2>
+      <img src="./img/big-field.svg" alt="">
+      <h2 class="field-names">Количество</h2>
+      <img src="./img/field.svg" alt="поле ввода">
+      <h2 class="field-names">Цена</h2>
+      <img src="./img/field.svg" alt="поле ввода">
     </div>
+    <div class="border__button">
+      <p class="button__text">добавить товар</p>
+      <img class="button" src="./img/button.svg" alt="">
+    </div>
+</div>
+
+
 </body>
 </html>

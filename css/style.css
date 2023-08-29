@@ -6,39 +6,66 @@
 }
 
 body {
+  
+  font-family: 'Inter';
+  text-transform: uppercase;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.border {
+  height: 823px;
+  width: 792px;
   background-color: #F2F0F9;
-  font-family: 'Inter';
-  text-transform: uppercase;
 }
 
-h1 {
-  font-family: 'Inter';
-  font-size: 24px;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 2.4px;
-  text-transform: uppercase;
-  color: #6E6893;
-}
-
-
-.card {
-  background-image: url('../img/Rectangle\ 44.svg');
-  background-repeat: no-repeat;
+.border__card {
+  height: 680px;
   width: 580px;
-  height: 620px;
-  color: #FFFFFF;
-  border-radius: 16px;
-}
-.cross {
-  padding-left: 742px;
+  margin-left: 106px;
+  background-color: #fff;
+  padding: 28px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px #a4a1b8;
 }
 
-.name {
-  color: #6E6893;
+.cross {
+  margin-top: 20px;
+  margin-left: 680px;
+}
+
+.border__title {
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 2.4px;
+text-transform: uppercase;
+color: #6E6893;
+margin: 0 106px 43px;
+}
+
+.field-names {
   font-size: 12px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   letter-spacing: 0.6px;
+  text-transform: uppercase;
+  margin-left: 10px;
+  color: #6E6893;
+}
+
+.gray {
+  display: block;
+  margin-left: 60px;
+}
+
+.button {
+  margin-bottom: 28px;
+}
+
+.border__button {
+  margin-top: 32px;
+  margin-left: 458px;
 }
