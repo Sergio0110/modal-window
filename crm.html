@@ -7,36 +7,25 @@
   <title>modal</title>
 </head>
 <body>
-<div class="border">
+  <div class="border">
   <img class="cross" src="./img/cross.svg" alt="">
     <h1 class="border__title">Добавить ТОВАР</h1>
     <div class="border__card">
-      <h2 class="field-names">Наименование</h2>
-      <img src="./img/field.svg" alt="поле ввода">
-      <h2 class="field-names">Категория</h2>
-      <img src="./img/field.svg" alt="поле ввода">
-      <h2 class="field-names">Единицы измерения</h2>
-      <img src="./img/field.svg" alt="поле ввода">
-      <h2 class="field-names">дисконт</h2>
-      <form action="#">
-          <label>
-            <input type="checkbox" class="checkbox__input">
-          </label>
-      </form>
-      <img class="gray" src="./img/gray-field.svg" alt="поле ввода">
-      <h2 class="field-names">Описание</h2>
-      <img src="./img/big-field.svg" alt="">
-      <h2 class="field-names">Количество</h2>
-      <img src="./img/field.svg" alt="поле ввода">
-      <h2 class="field-names">Цена</h2>
-      <img src="./img/field.svg" alt="поле ввода">
+      <form action="https://jsonplaceholder.typicode.com/posts"
+            method="post">
+            <label class="entry-field" for="name">Наименование</label> <input class="custom-input" type="text">
+            <label class="entry-field" for="name">Категория</label> <input class="custom-input" type="text">
+            <label class="entry-field" for="name">Единицы измерения</label> <input class="custom-input" type="text">
+            <label class="entry-field" for="name">дисконт</label>
+              <input type="checkbox" class="checkbox__input">
+                <input class="custom-input-gray" type="text"> 
+            <label class="entry-field" for="name">Описание</label>
+              <textarea class="description" name="" id="" cols="30" rows="10"></textarea>
+              <label class="entry-field" for="name">Количество</label> <input class="custom-input" type="number">
+              <label class="entry-field" for="name">Цена</label> <input class="custom-input" type="number">             
+          </form>
     </div>
-    <div class="border__button">
-      <p class="button__text">добавить товар</p>
-      <img class="button" src="./img/button.svg" alt="">
-    </div>
-</div>
-
-
+    <input class="custom-input-button" type="button" value="Добавить товар">  
+  </div>
 </body>
 </html>
