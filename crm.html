@@ -2,27 +2,38 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/index.css">
-  <title>modal</title>
+  <title>modal window</title>
 </head>
 <body>
   <div class="border">
-  <img class="cross" src="./img/cross.svg" alt="">
+  <img class="cross" src="./img/cross.svg" alt="иконка крестика-закрыть">
     <h1 class="border__title">Добавить ТОВАР</h1>
     <div class="border__card">
       <form action="https://jsonplaceholder.typicode.com/posts"
             method="post">
-            <label class="entry-field" for="name">Наименование</label> <input class="custom-input" type="text">
-            <label class="entry-field" for="name">Категория</label> <input class="custom-input" type="text">
-            <label class="entry-field" for="name">Единицы измерения</label> <input class="custom-input" type="text">
-            <label class="entry-field" for="name">дисконт</label>
+            <label class="entry-field" for="name">Наименование</label>
+              <input class="custom-input" type="text" id="name">
+
+            <label class="entry-field" for="category">Категория</label>
+              <input class="custom-input" type="text" id="category">
+
+            <label class="entry-field" for="units">Единицы измерения</label>
+              <input class="custom-input" type="text" id="units">
+
+            <div class="union">
+              <label class="discont" for="discount">дисконт</label>
               <input type="checkbox" class="checkbox__input">
-                <input class="custom-input-gray" type="text"> 
-            <label class="entry-field" for="name">Описание</label>
-              <textarea class="description" name="" id="" cols="30" rows="10"></textarea>
-              <label class="entry-field" for="name">Количество</label> <input class="custom-input" type="number">
-              <label class="entry-field" for="name">Цена</label> <input class="custom-input" type="number">             
+                <input class="custom-input-violet" type="text" id="discount"> 
+            </div>
+            <label class="entry-field" for="descript">Описание</label>
+              <textarea class="description" name="" id="descript" cols="30" rows="10"></textarea>
+            <label class="entry-field" for="quantity">Количество</label>
+                <input class="custom-input" type="number" id="quantity">
+            <label class="entry-field" for="price">Цена</label>
+                <input class="custom-input" type="number" id="price">             
           </form>
     </div>
     <input class="custom-input-button" type="button" value="Добавить товар">  

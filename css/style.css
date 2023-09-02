@@ -21,20 +21,22 @@ body {
 }
 
 .cross {
+  position: absolute;
   margin-left: 742px;
   margin-top: 20px;
 }
 
 .border__title {
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 2.4px;
-text-transform: uppercase;
-color: #6E6893;
-margin-left: 106px;
-padding-bottom: 16px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  color: #6E6893;
+  margin-left: 106px;
+  padding-bottom: 43px;
+  padding-top: 32px;
 }
 
 .entry-field {
@@ -50,6 +52,18 @@ padding-bottom: 16px;
   
 }
 
+.discont {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  margin-left: -68px;
+  margin-bottom: 5px;
+  color: #6E6893;
+}
+
 .custom-input {
   border: none;
   background-color: #F4F2FF;
@@ -60,13 +74,9 @@ padding-bottom: 16px;
   margin-bottom: 12px;
 }
 
-.discount {
-  display: flex;
-  align-items: center;
-  margin-left: 10px;
-}
 
-.custom-input-gray {
+
+.custom-input-violet {
   border: none;
   background-color: #F4F2FF;
   border-radius: 6px;
@@ -74,6 +84,7 @@ padding-bottom: 16px;
   height: 40px;
   color: #f236e8;
   margin-bottom: 12px;
+  margin-left: -28px;
 }
 .description {
   border: none;
@@ -99,4 +110,10 @@ padding-bottom: 16px;
   text-transform: uppercase;
   margin-bottom: 28px;
   margin-left: 458px;
+}
+
+.union {
+  position: relative;
+  padding-left: 78px;
+  
 }
