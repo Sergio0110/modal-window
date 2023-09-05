@@ -10,7 +10,8 @@
 
 <body>
   <div class="border">
-  <img class="cross" src="./img/cross.svg" alt="иконка крестика-закрыть">
+    <button class="cross" aria-label="Закрыть окно">
+      <img src="./img/cross.svg" alt="закрыть окно"></button>
     <h1 class="border__title">Добавить ТОВАР</h1>
     <div class="border__card">
       <form action="https://jsonplaceholder.typicode.com/posts"
@@ -37,7 +38,7 @@
                 <input class="custom-input" type="number" id="price">             
           </form>
     </div>
-    <input class="custom-input-button" type="button" value="Добавить товар">  
+    <button class="button" type="submit" value="button">Добавить товар</button>
   </div>
 </body>
 </html>

@@ -1,4 +1,5 @@
 @import url(normalize.css);
+@import url(global-start-style.css);
 @import url(style.css);
 @import url(fonts.css);
 @import url(form.css);
