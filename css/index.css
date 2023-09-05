@@ -1,4 +1,4 @@
-/*добавить normalize*/
+@import url(normalize.css);
 @import url(style.css);
 @import url(fonts.css);
 @import url(form.css);
