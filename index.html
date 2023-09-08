@@ -15,30 +15,31 @@
     <h1 class="border__title">Добавить ТОВАР</h1>
     <div class="border__card">
       <form action="https://jsonplaceholder.typicode.com/posts"
-            method="post">
+            method="post" id="test">
             <label class="entry-field" for="name">Наименование</label>
-              <input class="custom-input" type="text" id="name">
+              <input class="custom-input" name="name" type="text" id="name">
 
             <label class="entry-field" for="category">Категория</label>
-              <input class="custom-input" type="text" id="category">
+              <input class="custom-input" name="category" type="text" id="category">
 
             <label class="entry-field" for="units">Единицы измерения</label>
-              <input class="custom-input" type="text" id="units">
+              <input class="custom-input" name="units" type="text" id="units">
 
-            <div class="union">
               <label class="discont" for="discount">дисконт</label>
-              <input type="checkbox" class="checkbox__input">
-                <input class="custom-input-violet" type="text" id="discount"> 
+            <div class="union">
+              
+              <input type="checkbox" class="checkbox__input" name="checkbox">
+                <input class="custom-input-violet" name="checkbox" type="text" id="discount"> 
             </div>
             <label class="entry-field" for="descript">Описание</label>
               <textarea class="description" name="" id="descript" cols="30" rows="10"></textarea>
             <label class="entry-field" for="quantity">Количество</label>
-                <input class="custom-input" type="number" id="quantity">
+                <input class="custom-input" name="quantity" type="number" id="quantity">
             <label class="entry-field" for="price">Цена</label>
-                <input class="custom-input" type="number" id="price">             
+                <input class="custom-input" name="price" type="number" id="price">             
           </form>
     </div>
-    <button class="button" type="submit" value="button">Добавить товар</button>
+    <button class="button" form="test" type="submit" value="button">Добавить товар</button>
   </div>
 </body>
 </html>
