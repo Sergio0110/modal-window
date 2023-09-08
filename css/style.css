@@ -1,17 +1,5 @@
 
-html {
-  box-sizing: border-box;  
-}
 
-*, *:after, *:before {
-  box-sizing: inherit;
-}
-
-body {
-  font-family: 'Inter';
-  color: #F2F0F9;
-  margin: 0;
-}
 
 .border {
   position: relative;
@@ -94,6 +82,7 @@ body {
   height: 40px;
   color: #f236e8;
   margin-bottom: 12px;
+  padding-left: 15px;
 }
 
 .description {
@@ -105,6 +94,7 @@ body {
   height: 112px;
   color: #f236e8;
   margin-bottom: 12px;
+  padding-left: 15px;
 }
 
 .union {
